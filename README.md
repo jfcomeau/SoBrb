@@ -1,6 +1,6 @@
 # SoBrB
 
-SoBrb (Sonos Be Rigth Back) is a simple python project that, in conjonction with a scheduler (e.g. CRON), lowers [Sonos speakers](http://www.sonos.com/system/) volume at a specific time and then puts it back to the level it used to be. Useful for skipping radio ads!
+SoBrb (Sonos Be Rigth Back) is a simple python project that, in conjonction with a scheduler (e.g. CRON), lowers [Sonos speakers](http://www.sonos.com/system/) volume at a specific time and then puts it back to the level it used to be. Useful to automatically lower down the volume when radio ads are playing!
 
 ## Why?
 
