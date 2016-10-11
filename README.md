@@ -14,11 +14,13 @@ SoBrb depends on the great [SoCo library](https://github.com/SoCo/SoCo/). You ca
 
 ``pip install soco``
 
-## Config
+## How it Works?
 
-Edit ``uri_signature = ""`` in **sonos_be_right_back.py** with the uri (or a part of it that would be unique) that correspond to the uri of the radio station.
+The idea here is to look if a particular stream is currently playing and if so execute the script, thus lower the volume for a given period of time.
 
-To help you figure out what’s the uri you can run  **whats_playing.py** (in utils/).
+To find out if the stream we want to mute is playing the script compares what's playing with a stream "signature". A stream signature is a URI (or a part of it that would be unique) that correspond to the URI of the radio station.
+
+To help you figure out what’s the URI of the stream currently playing on your system you can run  **whats_playing.py** (in utils/).
 
 Here’s an example:
 ```python
@@ -30,6 +32,8 @@ Currently playing in Cuisine: x-rincon-mp3radio://7QMTL0.akacast.akamaistream.ne
 In my case that would be:
 
 ``uri_signature = "7QMTL0.akacast.akamaistream.net"``
+
+Edit ``uri_signature = ""`` in **sonos_be_right_back.py** with your URI
 
 ## Schedule
 
