@@ -4,7 +4,7 @@ SoBrb (Sonos Be Rigth Back) is a simple python project that, in conjonction with
 
 ## Why?
 
-I’m a big fan of [ICI Musique](http://icimusique.ca) (a public radio mostly playing music) and since October 2013 they started to introduce ads, a first since 1974! I find most of those ads to be of bad taste and are a big mood-breaker to say the least.
+I’m a big fan of [ICI Musique](http://icimusique.ca) (a public radio mostly playing music) and since October 2013 they started to introduce ads, a first since 1974. I find most of those ads to be of bad taste and are a big mood-breaker to say the least.
 
 At some point I realized that most of the time ads were run at a specific time (i.e. at the 28th minute of each hours, for 2 minutes). I therefore decided to write a script that would automatically lower down the volume at that time.
 
